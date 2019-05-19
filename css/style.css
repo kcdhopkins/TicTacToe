@@ -1,0 +1,45 @@
+body{
+  background-image: url("../img/bg4.jpeg");
+}
+p{
+  font-size: 60px;
+  color: Blue;
+}
+i{
+  color:Blue;
+}
+.row{
+  width: 200px;
+  height:200px;
+}
+
+.players{
+  display:grid;
+  grid-template-columns: auto auto auto;
+}
+td{
+  width: 200px;
+  height:200px;
+  text-align: center;
+  font-size: 60px;
+}
+
+table td {
+  border: 5px solid black;
+}
+table tr:first-child td {
+  border-top: 0;
+}
+table tr td:first-child {
+  border-left: 0;
+}
+table tr:last-child td {
+  border-bottom: 0;
+}
+table tr td:last-child {
+  border-right: 0;
+}
+
+.fab{
+  padding-top: 175px;
+}
